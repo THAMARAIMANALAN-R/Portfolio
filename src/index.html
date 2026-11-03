@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Thamarai Manalan R. — Computer Science Engineering student, software developer and AI product builder.">
+  <meta name="theme-color" content="#101014">
+  <meta property="og:title" content="Thamarai Manalan R. | Developer Portfolio">
+  <meta property="og:description" content="Building ideas into real-world products.">
+  <title>Thamarai Manalan R. | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Thamarai Manalan home">TM<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE ENGINEERING STUDENT</p>
+        <p class="hero-kicker">Hello, I'm</p>
+        <h1>Thamarai<br><span>Manalan R.</span></h1>
+        <h2 class="role-line">I build <span id="changingRole">digital products</span><span class="cursor">|</span></h2>
+        <p class="hero-description">
+          I enjoy turning ideas into functional products through software engineering,
+          AI-powered solutions, and thoughtful user experiences.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="assets/documents/resume.pdf" download>Download resume ↓</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://leetcode.com/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-glow"></div>
+        <div class="portrait-frame">
+          <!-- Replace this placeholder with your own photo: assets/images/profile.jpg -->
+          <img src="assets/images/profile.jpg" alt="Portrait of Thamarai Manalan" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="portrait-placeholder"><span>YOUR<br>PHOTO</span><small>Add profile.jpg<br>to assets/images</small></div>
+        </div>
+        <div class="floating-note note-top"><span class="note-icon">✳</span> Curious by nature</div>
+        <div class="floating-note note-bottom"><span class="note-icon">⌘</span> Building & learning</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about <span>me.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">I'm a Computer Science Engineering student who likes learning by building.</p>
+          <p>
+            I'm currently pursuing B.E. Computer Science and Engineering at Bannari Amman
+            Institute of Technology. My interests include full-stack development, artificial
+            intelligence, problem solving, and product development.
+          </p>
+          <p>
+            I enjoy taking an idea from an early concept to a working application. I also
+            care about how people use the products I build — simplifying flows, reducing
+            friction, and making digital experiences easier to understand.
+          </p>
+        </div>
+        <div class="stats-grid reveal">
+          <article class="stat-card"><strong>8.42</strong><span>Current CGPA</span></article>
+          <article class="stat-card"><strong>180+</strong><span>LeetCode problems</span></article>
+          <article class="stat-card"><strong>2028</strong><span>Graduation year</span></article>
+          <article class="stat-card"><strong>3+</strong><span>Featured projects</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / TOOLKIT</p>
+        <h2>Technologies I <span>work with.</span></h2>
+        <p class="section-intro">A snapshot of the tools and concepts I have worked with or am actively learning.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Programming</h3><div class="tags"><span>Java</span><span>C</span><span>JavaScript</span><span>SQL</span><span>Python</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">◫</div><h3>Frontend</h3><div class="tags"><span>HTML</span><span>CSS</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Backend & Databases</h3><div class="tags"><span>Node.js</span><span>Express</span><span>REST APIs</span><span>MongoDB</span><span>MySQL</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">✳</div><h3>AI & Data</h3><div class="tags"><span>Gemini API</span><span>ML fundamentals</span><span>Pandas</span><span>NumPy</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">▦</div><h3>CS Fundamentals</h3><div class="tags"><span>DSA</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Networks</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">↗</div><h3>Tools</h3><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Figma</span><span>Vercel</span><span>Codex</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading reveal">
+        <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div>
+        <p class="section-intro">A selection of projects where I explored ideas, technologies, and practical problem solving.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-art skillsync-art"><div class="mock-window"><div class="mock-top"><i></i><i></i><i></i><span>skillsync / dashboard</span></div><div class="mock-content"><div class="mock-sidebar"></div><div class="mock-main"><b>Career readiness</b><div class="mock-score">78<span>%</span></div><div class="mock-bars"><i></i><i></i><i></i></div><div class="mock-chips"><i></i><i></i><i></i></div></div></div></div><span class="art-label">AI · CAREER TECH</span></div>
+          <div class="project-content">
+            <div class="project-meta"><span>01 / FEATURED PROJECT</span><span>2026</span></div>
+            <h3>SkillSync</h3>
+            <p>An AI-powered career readiness platform that analyzes resumes against industry requirements and helps users identify skill gaps.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Gemini API</span></div>
+            <p class="project-detail">Full-Stack Developer · Team of 2. Worked on resume analysis, AI integration, and a simplified goal-first onboarding experience.</p>
+            <div class="project-links"><a href="#" class="placeholder-link">Project details ↗</a><a href="#" class="placeholder-link">Repository ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art math-art"><div class="math-symbol">∑ <span>π</span> √ <em>f(x)</em></div><span class="art-label">EDTECH · INTERACTIVE LEARNING</span></div>
+          <div class="project-content">
+            <div class="project-meta"><span>02 / PROJECT</span><span>WEB APP</span></div>
+            <h3>MathVerse</h3>
+            <p>An interactive mathematics learning platform designed to make mathematical concepts more engaging and accessible.</p>
+            <div class="tags"><span>React</span><span>JavaScript</span><span>MongoDB</span></div>
+            <p class="project-detail">Software Developer · Built an interactive learning experience and application features.</p>
+            <div class="project-links"><a href="#" class="placeholder-link">Project details ↗</a><a href="#" class="placeholder-link">Repository ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art nexus-art"><div class="nexus-orbit"><i></i><i></i><i></i><b>N</b></div><span class="art-label">AI · DIGITAL HERITAGE</span></div>
+          <div class="project-content">
+            <div class="project-meta"><span>03 / PROJECT</span><span>HACKATHON MVP</span></div>
+            <h3>Neural Nexus</h3>
+            <p>An AI-oriented digital heritage project exploring technology's role in preserving and presenting cultural heritage.</p>
+            <div class="tags"><span>AI</span><span>Prototyping</span><span>Team Leadership</span></div>
+            <p class="project-detail">Team Lead · Focused on problem identification, solution development, and MVP prototyping.</p>
+            <div class="project-links"><a href="#" class="placeholder-link">Project details ↗</a><a href="#" class="placeholder-link">Repository ↗</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="edit-note">Project links are placeholders. Replace # with your actual demo, case study, and repository URLs.</p>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow">04 / JOURNEY</p><h2>Learning through <span>doing.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">2026 · PARTICIPATION</div><h3>Intel 2026 National Level League</h3><p>Participated in the league at DSU University, Bengaluru, in association with Donggong University, Singapore. Worked with Team AA on SkillSync, an AI-based skill gap analysis platform in the education domain.</p></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">CERTIFICATION</div><h3>Oracle Certified Foundations Associate</h3><p>Earned the Oracle Certified Foundations Associate certification.</p></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">ONGOING</div><h3>Problem solving & continuous learning</h3><p>Practicing Java and data structures and algorithms, with 180+ LeetCode problems solved. Currently strengthening system design, databases, and software engineering fundamentals.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">05 / CONTACT</p><h2>Let's build something <span>meaningful.</span></h2><p class="section-intro">Have an idea, an opportunity, or something interesting to discuss? Feel free to reach out.</p></div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a class="contact-link" href="https://linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><b>LinkedIn</b><small>Professional connections</small></span><span class="out-arrow">↗</span></a>
+            <a class="contact-link" href="https://github.com/" target="_blank" rel="noreferrer"><span class="contact-icon">⌘</span><span><b>GitHub</b><small>Projects and repositories</small></span><span class="out-arrow">↗</span></a>
+            <a class="contact-link" href="mailto:YOUR_EMAIL@example.com"><span class="contact-icon">✉</span><span><b>Email</b><small>YOUR_EMAIL@example.com</small></span><span class="out-arrow">↗</span></a>
+            <p class="contact-note">I'm open to meaningful collaborations, learning opportunities, and conversations about technology.</p>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+            <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required>
+            <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+            <button class="button button-primary submit-button" type="submit">Prepare email <span>↗</span></button>
+            <p class="form-message" id="formMessage" aria-live="polite">This form opens your default email application. Add your real email address in the HTML before publishing.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand" href="#home">TM<span>.</span></a>
+    <p>Designed with curiosity. Built with purpose.</p>
+    <span>© <span id="year"></span> Thamarai Manalan R.</span>
+    <a class="back-top" href="#top" aria-label="Back to top">↑</a>
+  </footer>
+</body>
+</html>
